@@ -1,4 +1,4 @@
-function JapFoodMenu(home, about, menu, contact) {
+function JapFoodMenu({home, about, menu, contact}) {
     return <div>
         <nav>
             <ul id="menu">
