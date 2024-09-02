@@ -10,6 +10,7 @@ import SurveyForm from './SurveyForm.js';
 import Alert from './Alert.js'
 import RandomUser from './components/RandomUser.js';
 import User from './components/Users.js';
+import React from 'react';
 
 function App() {
   return (

@@ -1,3 +1,4 @@
+import React from 'react';
 function JapFoodMenu({home, about, menu, contact}) {
     return <div>
         <nav>
