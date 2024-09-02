@@ -9,6 +9,7 @@ import Dice from './Dice.js';
 import SurveyForm from './SurveyForm.js';
 import Alert from './Alert.js'
 import RandomUser from './components/RandomUser.js';
+import User from './components/Users.js';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <JapFood />
       </header>
       <RandomUser />
+      <User />
       <DisplayMessage whatever_message="Insert message here!" />
       <ImageFrame image={FoodImage} />
       <SumOfTwo num1={5} num2={10} />
