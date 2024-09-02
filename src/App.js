@@ -6,7 +6,7 @@ import NumberBox from './NumberBox.js';
 import AlertBox from './AlertBox.js';
 import TickleBox from './TickleBox.js';
 import Dice from './Dice.js';
-
+import SurveyForm from './SurveyForm.js';
 import Alert from './Alert.js'
 
 function App() {
@@ -24,6 +24,7 @@ function App() {
       <AlertBox message="Initial Alert Message"/>
       <TickleBox initialMessage="Dont Tickle Me!"/>
       <Dice />
+      <SurveyForm />
     </div>
   );
 }
