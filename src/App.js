@@ -8,6 +8,7 @@ import TickleBox from './TickleBox.js';
 import Dice from './Dice.js';
 import SurveyForm from './SurveyForm.js';
 import Alert from './Alert.js'
+import RandomUser from './components/RandomUser.js';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <TickleBox initialMessage="Dont Tickle Me!"/>
       <Dice />
       <SurveyForm />
+      <RandomUser />
     </div>
   );
 }
