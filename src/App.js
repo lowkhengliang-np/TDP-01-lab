@@ -16,7 +16,7 @@ function App() {
       <header className="App-header">
         <JapFood />
       </header>
-
+      <RandomUser />
       <DisplayMessage whatever_message="Insert message here!" />
       <ImageFrame image={FoodImage} />
       <SumOfTwo num1={5} num2={10} />
